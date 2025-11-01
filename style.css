@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+body {
+  background-color: #003049;
+}
+
+header {
+  padding: 10px;
+  text-align:center;
+  width: auto;
+  align-items: center;
+  border-color: black;
+  border-style: solid;
+  background-image:linear-gradient(to bottom,#005dc1, rgb(63, 138, 219)) ;
+}
+
+h1 {
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  max-width: 700px;
+  box-shadow: 5px 7px 7px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px;
+  margin: auto;
+  border-style:solid;
+}
+
+main {
+    background-color: whitesmoke;
+    font-family: 'Cinzel', serif;
+    padding: 10px;
+    width: auto;
+}
+
+.corTexto { color: rgb(0, 0, 0);}
+
+#map {
+  color: white;
+  font-size: small;
+  padding: 5px;
+  border-width: 5px;
+  padding: 7px;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 3px;
+}
+
+footer {
+  background-color:#5bb3bf;
+  padding: 19px;
+  border-radius: 3px;
+  width: auto;
+  border-style: solid;
+}
+
+.botao {
+  background-color: white; 
+  color: black; 
+  border: none;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #26c267;
+}
+
+.botao1:hover {
+  background-color: #26c267;
+  color: white;
+}
+
+.foto{
+  border-radius: 7px;
+  border-style: solid;
+  width:800;
+  height:463;
+  border-color: rgb(255, 86, 86);
+}
+.input-font{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h3, h2, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.texto_da_imagem {
+    text-align: justify;
+}
+
+#resp1 {
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#resp2 {
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#resp3 {
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SSA Turismos</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="" type="image/x-icon">
+        <script type="text/javascript" src="java.js"></script>
+    </head>
+<body>
+
+    <header>
+        <h1> SSA Turismos </h1>
+        <h2>O melhor de Salvador você encontra aqui</h2>
+        <a href="https://www.instagram.com/visitsalvadordabahia/?hl=pt-br" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="instagram MPT" width="30" height="30"></a> 
+        <a href="https://www.facebook.com/visitsalvadordabahia/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" alt="instagram MPT" width="30" height="30"></a>
+    </header>
+
+    <main>
+        <img src="https://turismointerno.com.br/uploads/0000/1/2022/05/26/passeio-panoramico-salvador-22.jpg" width="406" height="228" class="foto">
+        <h3> Você está a um passo de realizar a viagem dos sonhos! </h3>
+        <form >
+        <label for="nome" class="corTexto"> Nome:  </label>
+        <br>
+        <input id="nome" class="input-font">
+        <br><br>
+        <label for="num" class="corTexto">  Telefone:  </label>
+        <br>
+        <input id="num" class="input-font">
+        <br><br>
+        <label for="detalhe" class="corTexto"> Detalhe o seu pedido:  </label>
+        <br>
+        <textarea id="detalhe"  class="input-font"rows="5" cols="33"></textarea>
+        <br><br>
+        <button type="button" onclick="so_numero()" class="botao botao1">Enviar</button>
+        <button type="button" onclick= "cleanInput()" class="botao botao1">Limpar</button>
+        <p id="resp1"></p>
+        <p id="resp2"></p>
+        <p id="resp3"></p>
+        </form>
+    </main>
+
+    <footer> 
+        <h3>Volte para a nossa página principal.</h3>
+        <a href="index.html" target="_self"><button  type="button" class="botao botao1" id="botao2">Página Principal</button></a>
+        <br><br>
+        <a href="https://www.google.com/maps/place/Prefeitura+Municipal+de+Salvador/@-12.9742514,-38.5887058,13z/data=!4m10!1m2!2m1!1sprefeitura+salvador+maps!3m6!1s0x7161a4b89860149:0x361ed7a3b7ba0faa!8m2!3d-12.9742514!4d-38.5124881!15sChhwcmVmZWl0dXJhIHNhbHZhZG9yIG1hcHOSAQljaXR5X2hhbGzgAQA!16s%2Fg%2F11b6hpb89r?entry=ttu" id="map">Nosso Endereço: Praça Municipal, s/n Pálacio Thomé de Souza - Centro, Salvador - BA, 40020-010</a>
+    </footer>
+
+</body>
+</html>
